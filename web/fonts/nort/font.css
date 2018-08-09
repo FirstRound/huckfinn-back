@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'NORTHWEST-Bold';
+  src: url('NORTHWEST-Bold.eot');
+  src: url('NORTHWEST-Bold.woff2') format('woff2'),
+       url('NORTHWEST-Bold.woff') format('woff'),
+       url('NORTHWEST-Bold.ttf') format('truetype'),
+       url('NORTHWEST-Bold.svg#NORTHWEST-Bold') format('svg'),
+       url('NORTHWEST-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

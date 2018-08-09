@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Anja Eliane';
+  src: url('Anja Eliane.eot');
+  src: url('Anja Eliane.woff2') format('woff2'),
+       url('Anja Eliane.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AnjaElianeNornal';
+  src: url('AnjaElianeNornal.woff') format('woff'),
+       url('AnjaElianeNornal.ttf') format('truetype'),
+       url('AnjaElianeNornal.svg#AnjaElianeNornal') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
