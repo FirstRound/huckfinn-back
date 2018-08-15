@@ -23,6 +23,41 @@ $this->registerCss("
     <div class="block-of-camping">
         <div class="container">
             <h1>Want to Volunteer? Tell us about yourself!</h1>
+            <div class="blue-bg">
+                   <form action="POST https://huckfinnsub.herokuapp.com/subscribers/message" class="want-to" id="volonter">
+                       <div class="row">
+                           <div class="col-xs-12 col-sm-6 col-md-6">
+                                <div class="form-group">
+                                    <input type="text" id="name" class="form-control" placeholder="name">
+                                </div>
+                           </div>
+                           <div class="col-xs-12 col-sm-6 col-md-6">
+                                <div class="form-group">
+                                    <input type="text" id="email" class="form-control" placeholder="Email@email.com">
+                                </div>
+                           </div>
+                       </div>
+                       <div class="row">
+                           <div class="col-xs-12">
+                                <div class="form-group">
+                                    <input type="text" id="subject" class="form-control" placeholder="Subject">
+                                </div>
+                           </div>
+                       </div>
+                       <div class="row">
+                           <div class="col-xs-12">
+                                <div class="form-group">
+                                    <textarea name="message" id="message" cols="" rows="6" class="form-control" placeholder="message"></textarea>
+                                </div>
+                           </div>
+                       </div>
+                       <div class="row">
+                            <div class="col-xs-12">
+                                <button class="btn-fb">Submit</button>
+                            </div>
+                       </div>
+                   </form>
+                </div>
             <p class="text-center"><a href="https://goo.gl/forms/QdB9rq89C8YxkW073" target="_blank" class="form_link">Fill in the form</a></p>
         </div>
     </div>
